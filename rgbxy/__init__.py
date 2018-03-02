@@ -44,7 +44,7 @@ def get_light_gamut(modelId):
         return GamutA
     elif modelId in ('LCT001', 'LCT007', 'LCT002', 'LCT003', 'LLM001'):
         return GamutB
-    elif modelId in ('LCT010', 'LCT014', 'LCT011', 'LLC020', 'LST002'):
+    elif modelId in ('LCT010', 'LCT014', 'LCT015', 'LCT016', 'LCT011', 'LLC020', 'LST002'):
         return GamutC
     else:
         raise ValueError
